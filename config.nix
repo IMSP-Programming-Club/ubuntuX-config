@@ -1,0 +1,8 @@
+{
+  username = "student";
+  github = {
+    username = "TonIdGithub";
+    email = "ton.email@gmail.com";
+  };
+  group = "ml";
+}
