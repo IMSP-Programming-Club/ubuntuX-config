@@ -22,7 +22,7 @@
       system = "x86_64-linux";
       pkgs = import nixpkgs {
         inherit system;
-        allowUnfree = true;
+        config.allowUnfree = true;
       };
       student = import ./config.nix { inherit pkgs; };
     in
@@ -48,7 +48,7 @@
           }
 
           # Extra
-          catppuccin.homeManagerModules.catppuccin
+          catppuccin.homeModules.catppuccin
         ];
       };
     };
