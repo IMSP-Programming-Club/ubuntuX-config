@@ -8,30 +8,38 @@ Pas besoin de tout installer à la main — une commande et tout est prêt.
 | | |
 |---|---|
 | **🎨 Shell prêt à l'emploi** | Bash + starship (prompt stylé) + ble.sh (auto-complétion) + eza/bat (jolis listings) |
-| **📦 Packages par groupe** | Choisis ton groupe : `ml` (Python/IA), `web` (PHP/Node/SQLite), ou `hacking` (nmap/Wireshark) |
-| **🔄 Mise à jour automatique** | Commande `update-config` → backup, fetch GitHub, rebuild en un clic |
-| **🐍 Python & Data Science** | numpy, pandas, matplotlib, Jupyter, pip — tout pré-installé |
+| **📦 Packages par groupe** | Choisis ton groupe : `ml` , `web`, ou `hacking`  |
+| **🔄 Mise à jour automatique** | Commande `update-config` → backup -> tout en une commande |
 | **🌍 Locale française** | Langue du système en fr_FR.UTF-8 |
 | **🛡️ Git configuré** | Nom, email, branche `main` par défaut |
-| **🎯 Outils dev** | gh, micro, nixfmt, pay-respects (`wtf`), copilot CLI |
-| **✨ Fun** | cowsay, lolcat, fastfetch au lancement |
+| **🎯 Outils dev** | gh,  devenv , pay-respects (`wtf`), avec ✨copilot CLI ! |
 
 ## Pour commencer
 
 ```bash
-# Applique la config
-home-manager switch --flake .
+# Clone le repo
+git clone https://github.com/IMSP-Programming-Club/ubuntuX-config
 
-# Mets à jour depuis GitHub
-update-config
+# Deplace toi dans le dossier
+cd ubuntuX-config
+
+# Premiere fois ? le script d'install est là !
+
+# Si le script echoue (msg erreur): Applique la config manuellement
+home-manager switch
+
+# Si le script reussie: relance ta session
+exit
+wsl 
 ```
-
+  Et Voila !! Maintenant tu peux ecrire ton code sans te soucier de ce qui est installé ;)
+  
 ## Personnaliser
 
 Édite `user.yaml` pour changer ton groupe et ton identité GitHub :
 
 ```yaml
-username: student
+username: student    # ⚠️ Encore experimental 
 github:
   username: TonPseudo
   email: toi@email.com
