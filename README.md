@@ -23,7 +23,12 @@ git clone https://github.com/IMSP-Programming-Club/ubuntuX-config
 # Deplace toi dans le dossier
 cd ubuntuX-config
 
+# Pour etre sur que tu es bien arrive
+pwd         # resultat devrait 'resembler' à un truc du genre :/home/student/ubuntuX-config/
+    
 # Premiere fois ? le script d'install est là !
+chmod +x install.bash
+./install.bash
 
 # Si le script echoue (msg erreur): Applique la config manuellement
 home-manager switch
