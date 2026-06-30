@@ -101,7 +101,7 @@ in
     enableBashIntegration = true;
     options = [
       "--alias"
-      "fuck"
+      "wtf"
     ];
   };
 
@@ -118,8 +118,10 @@ in
   # 🎨 N/A
   # ──────────────────────────────────────────────────
     catppuccin = {
+      bat = {
       enable = true;
       flavor = "mocha";
+	  };
     };
   # ──────────────────────────────────────────────────
   # 📄 Extra Config
