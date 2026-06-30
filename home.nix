@@ -126,10 +126,20 @@ in
   # ──────────────────────────────────────────────────
   # 📄 Extra Config
   # ──────────────────────────────────────────────────
+ home.language = {
+    base = "fr_FR.UTF-8";
+    messages = "fr_FR.UTF-8";
+    ctype = "fr_FR.UTF-8";
+    numeric = "fr_FR.UTF-8";
+    time = "fr_FR.UTF-8";
+    monetary = "fr_FR.UTF-8";
+  };
+
   home.sessionVariables = {
     MANPAGER = "sh -c 'col -bx | bat -l man -p'";
     PAGER = "less -RF";
     MANROFFOPT = "-c -P-c";
     EDITOR = "micro";
+	LANG = "fr_FR.UTF-8";
   };
 }
