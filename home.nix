@@ -39,7 +39,7 @@ in
     bat
     tealdeer
     yq
-    # test
+    glibcLocales
 
   ];
 
@@ -118,16 +118,16 @@ in
   # ──────────────────────────────────────────────────
   # 🎨 N/A
   # ──────────────────────────────────────────────────
-    catppuccin = {
-      bat = {
+  catppuccin = {
+    bat = {
       enable = true;
       flavor = "mocha";
-	  };
     };
+  };
   # ──────────────────────────────────────────────────
   # 📄 Extra Config
   # ──────────────────────────────────────────────────
- home.language = {
+  home.language = {
     base = "fr_FR.UTF-8";
     messages = "fr_FR.UTF-8";
     ctype = "fr_FR.UTF-8";
@@ -141,6 +141,7 @@ in
     PAGER = "less -RF";
     MANROFFOPT = "-c -P-c";
     EDITOR = "micro";
-	LANG = "fr_FR.UTF-8";
+    LANG = "fr_FR.UTF-8";
+    LOCALE_ARCHIVE = "${pkgs.glibcLocales}/lib/locale/locale-archive";
   };
 }

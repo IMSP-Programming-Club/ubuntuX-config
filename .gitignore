@@ -1,0 +1,5 @@
+# artifacts
+test/
+
+# Privee
+shell.nix

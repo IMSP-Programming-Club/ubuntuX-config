@@ -35,7 +35,6 @@ home-manager switch
 
 # Si le script reussie: relance ta session
 exit
-wsl 
 ```
   Et Voila !! Maintenant tu peux ecrire ton code sans te soucier de ce qui est installé ;)
   
@@ -53,4 +52,4 @@ group: ml   # ml | web | hacking
 
 ---
 
-Fait avec ❤️ pour les membres du **BClub**.
+Fait avec ~~HAINE~~ ❤️ pour les membres du **BClub**.
