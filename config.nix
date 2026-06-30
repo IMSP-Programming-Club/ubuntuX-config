@@ -22,7 +22,8 @@ in
   group = student.group;
 
   # Options pour desactiver les configs par defaut
+
   source = {
-    url = "https://github.com/IMSP-Programming-Club/0-installation-environnement-de-developpement";
+    url = "https://github.com/IMSP-Programming-Club/ubuntuX-config";
   };
 }

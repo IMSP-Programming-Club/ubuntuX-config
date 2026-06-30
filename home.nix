@@ -33,7 +33,6 @@ in
     yazi
 
     # utils
-    nixfmt
     blesh
     eza
     bat
@@ -61,7 +60,6 @@ in
     initExtra = ''
       fastfetch
       eval "$(${pkgs.starship}/bin/starship init bash)"
-      eval "$(pay-respects bash)"		# Trop facile ? Ennuyant ?
     '';
     bashrcExtra = ''
       [[ $- == *i* ]] && source -- "$(blesh-share)"/ble.sh --attach=none
