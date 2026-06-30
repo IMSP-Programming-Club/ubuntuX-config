@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let
-  config = ./config.nix { inherit pkgs; };
+  config = import ./config.nix { inherit pkgs; };
 in
 {
   home.packages = with pkgs; [

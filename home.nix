@@ -107,10 +107,7 @@ in
 
   programs.bat = {
     enable = true;
-    catppuccin = {
-      enable = true;
-      flavor = "mocha";
-    };
+
   };
 
   programs.github-copilot-cli = {
@@ -120,7 +117,10 @@ in
   # ──────────────────────────────────────────────────
   # 🎨 N/A
   # ──────────────────────────────────────────────────
-
+    catppuccin = {
+      enable = true;
+      flavor = "mocha";
+    };
   # ──────────────────────────────────────────────────
   # 📄 Extra Config
   # ──────────────────────────────────────────────────
