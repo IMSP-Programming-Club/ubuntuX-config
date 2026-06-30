@@ -1,5 +1,9 @@
 # ToDo
 + [x] scripts.nix: update, new-projet ?, setup-new-user (au demarrage) ?, hm switch?
+    |
+    - [ ] setup-new-user
+    - [ ] new-project ?
+     
 + [x] bat comme default PAGER
 + [ ] integration github classroom
 + [ ] tests automatiques
@@ -8,4 +12,4 @@
 + [x] config.nix --> user.yaml
 + [ ] devenv templates par section ? est-vraiment necessaire avec home-manager ?
 + [ ] recompresser nouvelles version de UbuntuX
-+ [ ] Clone de comma
++ [ ] Clone de comma ? utile 

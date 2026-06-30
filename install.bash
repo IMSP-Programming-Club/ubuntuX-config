@@ -3,8 +3,8 @@ set -euo pipefail
 
 SOURCE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 HM_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/home-manager"
-TIMESTAMP="$(date '+%Y%m%d_%H%M%S')"
-BACKUP_DIR="$HOME/.config/home-manager-backup-$TIMESTAMP"
+TIMESTAMP="$(date '+%Y%m%d')"
+BACKUP_DIR="$HOME/.backup/home-manager-backup-$TIMESTAMP"
 
 header() { echo "=== install ==="; }
 
